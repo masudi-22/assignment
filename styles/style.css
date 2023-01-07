@@ -135,6 +135,40 @@ ul li:before{
     width: 1140px;
     height: 300px;
 }
+/* Additional part styles */
+.additional{
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.education{
+    padding-left: 35px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.education-title{
+    padding-bottom: 20px;
+}
+.institution-name{
+    padding-bottom: 10px;
+}
+.degree{
+    padding-bottom: 5px;
+}
+.location{
+    padding-bottom :5px; 
+}
+.work-experience{
+    box-shadow: 10px 10px 5px lightblue;
+}
+.job-title{
+    padding-bottom: 20px;
+}
+.job-name{
+    padding-bottom: 20px;
+}
 /* footer styles */
 .footer{
     margin-top: 130px;
