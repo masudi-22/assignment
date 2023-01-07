@@ -97,20 +97,28 @@ ul li:before{
 .gradient{
     background: url('../images/watch.png');
     background-repeat: no-repeat;
-    margin: 117px 230px 0px 230px;
+    margin-left: 230px;
+    margin-top: 130px;
+    position: relative;
 }
 .gradient-title{
-    padding: 59px 617px 0px 64px;
+    position: absolute;
+    top: 40px;
+    left: 64px;
     width: 459px;
-    height: 94px;
+    /* height: 94px; */
     font-weight: 700;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    color: #FFFFFF;
+    color: black;
 }
 .btn-2{
-    margin: 24px 916px 59px 64px;
+    margin-left: 64px;
+    position: absolute;
+    left: 0%;
+    top: 65%;
+    
     width: 160px;
     height: 64px;
     text-align: center;
@@ -119,6 +127,10 @@ ul li:before{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
+}
+.image2{
+    width: 1140px;
+    height: 300px;
 }
 /* footer styles */
 .footer{
