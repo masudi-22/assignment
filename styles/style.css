@@ -97,7 +97,6 @@ ul li:before{
 .gradient{
     background: url('../images/watch.png');
     background-repeat: no-repeat;
-    height: 100vh;
     margin: 117px 230px 0px 230px;
 }
 .gradient-title{
@@ -120,4 +119,75 @@ ul li:before{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
+}
+/* footer styles */
+.footer{
+    margin-top: 130px;
+    display: flex;
+    background-color: #151414;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+}
+.left-part{
+    padding: 118px 331px 141px 230px;
+}
+.address-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.address-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 78px;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.email-l{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.phone{
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.right-part{
+    padding: 118px 230px 255px 0px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 123px;
+    height: 29px;
+    
+}
+form{
+    width: 325px;
+    height: 144px;
+
+}
+.email{
+    margin-bottom:24px;
+    width: 300px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2px 50px 2px 5px;
+
+    
+}
+
+.btn-3{
+    width: 170px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 600;
+    color: #F15B22;
 }
